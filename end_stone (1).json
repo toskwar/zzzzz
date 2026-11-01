@@ -1,0 +1,599 @@
+{
+	"parent": "minecraft:block/block",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "minecraft:block/end_stone",
+		"cage": "minecraft:block/spawner",
+		"wall": "minecraft:block/end_stone",
+		"creeper": "minecraft:entity/creeper/creeper"
+	},
+	"elements": [
+		{
+			"from": [
+				0,
+				0,
+				0
+			],
+			"to": [
+				16,
+				16,
+				16
+			],
+			"faces": {
+				"down": {
+					"uv": [
+						0,
+						0,
+						16,
+						16
+					],
+					"texture": "#cage",
+					"cullface": "down"
+				},
+				"up": {
+					"uv": [
+						0,
+						0,
+						16,
+						16
+					],
+					"texture": "#cage",
+					"cullface": "up"
+				},
+				"north": {
+					"uv": [
+						0,
+						0,
+						16,
+						16
+					],
+					"texture": "#cage",
+					"cullface": "north"
+				},
+				"south": {
+					"uv": [
+						0,
+						0,
+						16,
+						16
+					],
+					"texture": "#cage",
+					"cullface": "south"
+				},
+				"west": {
+					"uv": [
+						0,
+						0,
+						16,
+						16
+					],
+					"texture": "#cage",
+					"cullface": "west"
+				},
+				"east": {
+					"uv": [
+						0,
+						0,
+						16,
+						16
+					],
+					"texture": "#cage",
+					"cullface": "east"
+				}
+			}
+		},
+		{
+			"from": [
+				0.5,
+				0.5,
+				0.5
+			],
+			"to": [
+				15.5,
+				15.5,
+				0.5
+			],
+			"light_emission": 6,
+			"faces": {
+				"south": {
+					"uv": [
+						0.5,
+						0.5,
+						15.5,
+						15.5
+					],
+					"texture": "#wall"
+				}
+			}
+		},
+		{
+			"from": [
+				0.5,
+				0.5,
+				15.5
+			],
+			"to": [
+				15.5,
+				15.5,
+				15.5
+			],
+			"light_emission": 6,
+			"faces": {
+				"north": {
+					"uv": [
+						0.5,
+						0.5,
+						15.5,
+						15.5
+					],
+					"texture": "#wall"
+				}
+			}
+		},
+		{
+			"from": [
+				0.5,
+				0.5,
+				0.5
+			],
+			"to": [
+				0.5,
+				15.5,
+				15.5
+			],
+			"light_emission": 6,
+			"faces": {
+				"east": {
+					"uv": [
+						0.5,
+						0.5,
+						15.5,
+						15.5
+					],
+					"texture": "#wall"
+				}
+			}
+		},
+		{
+			"from": [
+				15.5,
+				0.5,
+				0.5
+			],
+			"to": [
+				15.5,
+				15.5,
+				15.5
+			],
+			"light_emission": 6,
+			"faces": {
+				"west": {
+					"uv": [
+						0.5,
+						0.5,
+						15.5,
+						15.5
+					],
+					"texture": "#wall"
+				}
+			}
+		},
+		{
+			"from": [
+				0.5,
+				0.5,
+				0.5
+			],
+			"to": [
+				15.5,
+				0.5,
+				15.5
+			],
+			"light_emission": 6,
+			"faces": {
+				"up": {
+					"uv": [
+						0.5,
+						0.5,
+						15.5,
+						15.5
+					],
+					"texture": "#wall"
+				}
+			}
+		},
+		{
+			"from": [
+				0.5,
+				15.5,
+				0.5
+			],
+			"to": [
+				15.5,
+				15.5,
+				15.5
+			],
+			"light_emission": 6,
+			"faces": {
+				"down": {
+					"uv": [
+						0.5,
+						0.5,
+						15.5,
+						15.5
+					],
+					"texture": "#wall"
+				}
+			}
+		},
+		{
+			"from": [
+				6.4,
+				10.0,
+				6.4
+			],
+			"to": [
+				9.6,
+				13.2,
+				9.6
+			],
+			"light_emission": 15,
+			"faces": {
+				"up": {
+					"uv": [
+						2.0,
+						0.0,
+						4.0,
+						4.0
+					],
+					"texture": "#creeper"
+				},
+				"down": {
+					"uv": [
+						4.0,
+						4.0,
+						6.0,
+						0.0
+					],
+					"texture": "#creeper"
+				},
+				"west": {
+					"uv": [
+						0.0,
+						4.0,
+						2.0,
+						8.0
+					],
+					"texture": "#creeper"
+				},
+				"south": {
+					"uv": [
+						2.0,
+						4.0,
+						4.0,
+						8.0
+					],
+					"texture": "#creeper"
+				},
+				"east": {
+					"uv": [
+						4.0,
+						4.0,
+						6.0,
+						8.0
+					],
+					"texture": "#creeper"
+				},
+				"north": {
+					"uv": [
+						6.0,
+						4.0,
+						8.0,
+						8.0
+					],
+					"texture": "#creeper"
+				}
+			}
+		},
+		{
+			"from": [
+				6.4,
+				5.2,
+				7.2
+			],
+			"to": [
+				9.6,
+				10.0,
+				8.8
+			],
+			"light_emission": 15,
+			"faces": {
+				"down": {
+					"uv": [
+						7.0,
+						10.0,
+						9.0,
+						8.0
+					],
+					"texture": "#creeper"
+				},
+				"west": {
+					"uv": [
+						4.0,
+						10.0,
+						5.0,
+						16.0
+					],
+					"texture": "#creeper"
+				},
+				"south": {
+					"uv": [
+						5.0,
+						10.0,
+						7.0,
+						16.0
+					],
+					"texture": "#creeper"
+				},
+				"east": {
+					"uv": [
+						7.0,
+						10.0,
+						8.0,
+						16.0
+					],
+					"texture": "#creeper"
+				},
+				"north": {
+					"uv": [
+						8.0,
+						10.0,
+						10.0,
+						16.0
+					],
+					"texture": "#creeper"
+				}
+			}
+		},
+		{
+			"from": [
+				6.4,
+				2.8,
+				5.6
+			],
+			"to": [
+				8.0,
+				5.2,
+				7.2
+			],
+			"light_emission": 15,
+			"faces": {
+				"up": {
+					"uv": [
+						1.0,
+						8.0,
+						2.0,
+						10.0
+					],
+					"texture": "#creeper"
+				},
+				"down": {
+					"uv": [
+						2.0,
+						10.0,
+						3.0,
+						8.0
+					],
+					"texture": "#creeper"
+				},
+				"west": {
+					"uv": [
+						0.0,
+						10.0,
+						1.0,
+						13.0
+					],
+					"texture": "#creeper"
+				},
+				"south": {
+					"uv": [
+						1.0,
+						10.0,
+						2.0,
+						13.0
+					],
+					"texture": "#creeper"
+				},
+				"north": {
+					"uv": [
+						3.0,
+						10.0,
+						4.0,
+						13.0
+					],
+					"texture": "#creeper"
+				}
+			}
+		},
+		{
+			"from": [
+				8.0,
+				2.8,
+				5.6
+			],
+			"to": [
+				9.6,
+				5.2,
+				7.2
+			],
+			"light_emission": 15,
+			"faces": {
+				"up": {
+					"uv": [
+						1.0,
+						8.0,
+						2.0,
+						10.0
+					],
+					"texture": "#creeper"
+				},
+				"down": {
+					"uv": [
+						2.0,
+						10.0,
+						3.0,
+						8.0
+					],
+					"texture": "#creeper"
+				},
+				"south": {
+					"uv": [
+						1.0,
+						10.0,
+						2.0,
+						13.0
+					],
+					"texture": "#creeper"
+				},
+				"east": {
+					"uv": [
+						2.0,
+						10.0,
+						3.0,
+						13.0
+					],
+					"texture": "#creeper"
+				},
+				"north": {
+					"uv": [
+						3.0,
+						10.0,
+						4.0,
+						13.0
+					],
+					"texture": "#creeper"
+				}
+			}
+		},
+		{
+			"from": [
+				6.4,
+				2.8,
+				8.8
+			],
+			"to": [
+				8.0,
+				5.2,
+				10.4
+			],
+			"light_emission": 15,
+			"faces": {
+				"up": {
+					"uv": [
+						1.0,
+						8.0,
+						2.0,
+						10.0
+					],
+					"texture": "#creeper"
+				},
+				"down": {
+					"uv": [
+						2.0,
+						10.0,
+						3.0,
+						8.0
+					],
+					"texture": "#creeper"
+				},
+				"west": {
+					"uv": [
+						0.0,
+						10.0,
+						1.0,
+						13.0
+					],
+					"texture": "#creeper"
+				},
+				"south": {
+					"uv": [
+						1.0,
+						10.0,
+						2.0,
+						13.0
+					],
+					"texture": "#creeper"
+				},
+				"north": {
+					"uv": [
+						3.0,
+						10.0,
+						4.0,
+						13.0
+					],
+					"texture": "#creeper"
+				}
+			}
+		},
+		{
+			"from": [
+				8.0,
+				2.8,
+				8.8
+			],
+			"to": [
+				9.6,
+				5.2,
+				10.4
+			],
+			"light_emission": 15,
+			"faces": {
+				"up": {
+					"uv": [
+						1.0,
+						8.0,
+						2.0,
+						10.0
+					],
+					"texture": "#creeper"
+				},
+				"down": {
+					"uv": [
+						2.0,
+						10.0,
+						3.0,
+						8.0
+					],
+					"texture": "#creeper"
+				},
+				"south": {
+					"uv": [
+						1.0,
+						10.0,
+						2.0,
+						13.0
+					],
+					"texture": "#creeper"
+				},
+				"east": {
+					"uv": [
+						2.0,
+						10.0,
+						3.0,
+						13.0
+					],
+					"texture": "#creeper"
+				},
+				"north": {
+					"uv": [
+						3.0,
+						10.0,
+						4.0,
+						13.0
+					],
+					"texture": "#creeper"
+				}
+			}
+		}
+	]
+}

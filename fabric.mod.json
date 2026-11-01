@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "endstone_spawner",
+	"version": "${version}",
+	"name": "End Stone Creeper Spawner",
+	"description": "Заменяет вид камня Края на клетку спавнера с крипером внутри.",
+	"license": "CC0-1.0",
+	"icon": "assets/endstone_spawner/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.example.endstonespawner.client.EndStoneSpawnerClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
